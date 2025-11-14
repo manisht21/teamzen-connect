@@ -137,7 +137,7 @@ export default function Leaves() {
         days_count: daysCount,
         reason: formData.reason,
         status: 'pending',
-      });
+      } as any);
 
       if (error) throw error;
 
